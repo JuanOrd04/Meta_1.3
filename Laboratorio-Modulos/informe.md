@@ -48,10 +48,6 @@
 
 ## 4. Conclusiones
 
-Aquí tienes una versión aún más simple y directa para tus conclusiones:
-
-## 4. Conclusiones
-
 Usar módulos nos ayuda a que el código no sea un desorden. En lugar de escribir todo en un archivo gigante y enredado, podemos dividir el proyecto en partes pequeñas y fáciles de entender, como poner la calculadora en un archivo y las conversiones en otro. Esto hace que sea muy sencillo corregir errores y reutilizar funciones sin revolver nada.
 
 Es importante conocer tanto CommonJS como ES6 porque son las dos formas principales en las que JavaScript organiza los archivos. CommonJS usa `require` y se utiliza mucho en Node.js, mientras que ES6 usa `import` y es la forma moderna que funciona directo en el navegador web. Saber usar ambos nos permite adaptarnos a cualquier proyecto, ya sea nuevo o viejo.
