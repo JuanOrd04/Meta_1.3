@@ -29,10 +29,7 @@ export function celsiusAKelvin(celsius) {
 
 export const UNIDADES_LONGITUD = Object.keys(FACTORES_LONGITUD);
 
-// Exportación agrupada
+// Exportación con alias (para que app.js pueda importar 'longitud')
 export {
-    convertirLongitud as longitud,
-    celsiusAFahrenheit,
-    fahrenheitACelsius,
-    celsiusAKelvin
+    convertirLongitud as longitud
 };
