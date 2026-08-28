@@ -16,15 +16,13 @@ function dividir(a, b) {
     return a / b;
 }
 
-// Exportación múltiple
+// Exportación múltiple de funciones y propiedades
 module.exports = {
     sumar,
     restar,
     multiplicar,
     dividir,
-    version: "1.0.0"
+    version: "1.0.0",
+    potencia: (a, b) => Math.pow(a, b),
+    raiz: (a) => Math.sqrt(a)
 };
-
-// También se puede exportar individualmente
-exports.potencia = (a, b) => Math.pow(a, b);
-exports.raiz = (a) => Math.sqrt(a);
